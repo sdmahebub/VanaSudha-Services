@@ -1,0 +1,473 @@
+body,html{
+    width:100%;
+}
+
+body
+{
+    font-family: "Helvetica Neue";
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    background-image: url(Hero-back.png);
+    background-repeat: no-repeat;
+    background-position: 35em -16em;
+}
+
+.services-slogan{
+    font-size: 0.7em;
+}
+
+.vanasudha-logo
+            {
+                float: left;
+                margin: 0 0 0 110px;
+                font-size: 25px;
+                color: black;
+                opacity: .7;  
+                font-weight: 500;
+                cursor: pointer;
+            }
+            
+            .logo
+            {
+                cursor: pointer;
+                font-size: 25px;
+                color: #4fd174;
+                font-weight: 500;
+                float: left!important;
+                margin-bottom: 0;
+            }
+.navbar img{
+    width: 90px;
+    height: 35px;
+    margin-left: 7em;
+}
+
+.navbar-nav
+{
+    margin-left: 18em!important;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-link
+{
+  color:rgb(0,0,0) !important;
+    border: none;
+    background: transparent;
+  font-weight: 400;
+  margin-right: 2.4em;
+   width: 7em;
+    text-align: center;
+}
+
+
+.nav-link:hover
+{
+    color: #4fd174!important;
+    background: transparent;
+    cursor: pointer;
+}
+
+.bg-transparent
+{
+  border-bottom: 0.090em solid rgb(214,214,214);
+}
+
+#Contact_us
+{
+  border:0.090em solid rgb(177, 230, 207);
+  border-radius: 30px;
+   width: 7em;
+}
+
+#Contact_us:hover{
+    color: #4fd174!important;
+    background: none;
+}
+            
+@media screen and (max-width: 780px){
+    .vanasudha-logo{
+        margin-left: 0!important;
+        padding: 0!important;
+    }
+     .logo{
+         margin-right: auto!important;
+         padding: 0!important;
+    }
+    
+    .navbar img{
+        margin-left: 0;
+    }
+}
+
+            
+            .hr
+            {
+                border:.5px solid #bbbdbb;
+                width: 100%;
+            }
+            
+            .main
+            {
+                width:100%;
+                margin:auto;
+                height:280px;
+            }
+
+@media screen and (max-width: 500px){
+    .main
+            {
+            
+            }
+    
+     .main p
+            {
+            
+            }
+}
+            
+            .main h1
+            {
+                margin: 50px 0 40px 0;
+                font-size: 2.8em;
+                font-weight: 370;
+                color: #4fd174;
+            }
+            
+            .main p
+            {
+                font-size: 2.6em;
+                font-weight: 450;
+                line-height: .9;
+            }
+            
+            .join-us
+            {
+                font-weight: 700;
+                font-size: 32px;
+                border:.5px solid #4fd174;
+                border-radius: 45px;
+                padding: 10px 30px 10px 30px;
+                background: #4fd174;
+                margin-top: 2.8em; 
+            }
+            
+            .join-us a
+            {
+                text-decoration: none;
+                color: white!important;
+            }
+            
+            .join-us:hover, a:hover
+            {
+                text-decoration: none!important;
+                background: white;
+                color: #4fd174!important;
+            }
+            .join-us:hover
+            {
+                 box-shadow: 3px 5px 6px rgba(32, 0, 116,0.5);
+            }
+
+          .joinus
+            {
+                height: 250px;
+                background: #D0E2D5;
+                margin-top: 4em;
+            }
+            
+            .vs-service
+            {
+                width:100%;
+            }
+
+.service-back{
+    background-image: url(Services-Background.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 450px;
+    padding: 1em 0 1em 0;
+    position: relative;
+}
+
+.service-back img{
+    float: left;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin: 0 0 0 8em;
+    position: absolute;
+    top:50%;
+    left: 0%;
+    margin-top: -100px;
+    box-shadow: 3px 5px 6px rgba(32, 0, 116,0.5);
+    border-radius: 5px;
+}
+
+.service-back .service-content{
+    float: right;
+    margin-right: 8em;
+}
+
+.service-back-change{
+    width: 100%;
+    height: 450px;
+    padding: 1em 0 1em 0;
+    position: relative;
+}
+
+.service-back-change img{
+    float: right!important;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    margin: 0 8em 0 0;
+    position: absolute;
+    top:50%;
+    right: 0%;
+    margin-top: -100px;
+    box-shadow: 3px 5px 6px rgba(32, 0, 116,0.5);
+    border-radius: 5px;
+}
+
+.service-back-change .service-content{
+    float: left!important;
+    margin-left: 8em;
+}
+
+.service-back .service-content h1{
+    margin-top: 2em;
+    font-size: 32px;
+    padding: 0;
+    color: white;
+}
+
+.service-back-change .service-content h1{
+    margin-top: 2em;
+    font-size: 32px;
+    padding: 0;
+    color: #4fd174;
+}
+
+.service-back .service-content p{
+    padding: 1em 0 1em 0;
+    font-size: 16px;
+    color: white;
+}
+
+.service-back-change .service-content p{
+    padding: 1em 0 1em 0;
+    font-size: 16px;
+}
+
+.service-back .key-point{
+    float: right;
+    color: white;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.service-back-change .key-point{
+    float: left!important;
+    padding: 1em;
+    border-radius: 5px;
+}
+            
+@media screen and (max-width: 500px){
+    .service-back-change{
+        height: 800px;
+    }
+    
+    .service-back{
+        height: 800px;
+    }
+    
+    .service-back img{
+       margin-top: 120px;!important;
+    }
+    
+    .service-back-change img{
+        margin-top: 120px;!important;
+    }
+    
+    .service-content{
+    margin: auto!important;
+}
+    .service-back .service-content p{
+        text-align: center!important;
+        margin-right: 20px;
+    }
+}
+
+           .vs-service h2
+            {
+                font-size: 40px;
+                text-align: center;
+                font-weight: 700;
+                color: #4fd174;
+                padding-bottom: 1em;
+            }
+            
+            
+
+.footer
+            {
+                width: 100%;
+                height: 240px;
+                margin: 0 0 5px 0;
+            }
+            
+            #footer
+            {
+                width: 1100px;
+                margin: auto;
+                height: 240px;
+            }
+            
+            #da{
+		width:1100px;
+		height:110px;
+		padding:70px 0 70px 0;
+	}
+
+@media screen and (max-width: 500px){
+    
+    .footer
+            {
+                width: 100%;
+                height: 650px;
+                margin: 0 0 5px 0;
+            }
+            
+            #footer
+            {
+                width: 460px;
+                margin: auto;
+                height: 550px;
+            }
+            
+            #da{
+		width:460px;
+		height: 550px;
+		padding:70px 0 70px 0;
+        position: relative;
+	}
+    
+    #db{
+        position: absolute;
+        left: 32%;
+		width:200px;
+		height:110px;
+		color:#686a6d;
+        line-height: 1.4;
+        text-align: center;
+	}
+    
+    #dc{
+        position: absolute;
+        left: 14%;
+        top: 40%;
+		width:220px;
+		height:110px;
+		margin-left:70px;
+		color:#686a6d;
+        line-height: 1.4;
+        text-align: center;
+	}
+	
+	#dd{
+	     position: absolute;
+        left: 13%;
+        top: 68%;
+		width:220px;
+		height:110px;
+		margin-left:70px;
+		color:#686a6d;
+        line-height: 1.4;
+        text-align: center;
+	}
+    
+    #de{
+        position: absolute;
+        left: 30%;
+        top: 96%;
+		width:220px;
+		height:110px;
+        line-height: 1.4;
+        float: right;
+	}
+    
+    #ga{
+        margin-top: 100px;
+    }
+}
+	
+	#db{
+	    float:left;
+		width:200px;
+		height:110px;
+		color:#686a6d;
+        line-height: 1.4;
+	}
+	
+	#dc{
+	    float:left;
+		width:220px;
+		height:110px;
+		margin-left:70px;
+		color:#686a6d;
+        line-height: 1.4;
+	}
+	
+	#dd{
+	    float:left;
+		width:220px;
+		height:110px;
+		margin-left:70px;
+		color:#686a6d;
+        line-height: 1.4;
+	}
+            
+            .material-icons
+            {
+              margin: 5px 0 0 5px;
+            }
+            
+            #material-icons
+            {
+                width: 35px;
+                height: 35px;
+                border:.5px solid #4fd174;
+                border-radius: 50%;
+                float: left;
+                margin-right: 5px; 
+                background: #4fd174;
+            }
+	
+	#de{
+		width:220px;
+		height:110px;
+        line-height: 1.4;
+        float: right;
+	}
+            
+            #de img{
+                margin-left: 5px;
+                width: 35px;
+                height: 35px;
+            }
+            
+            #de img:hover{
+                border-radius: 50%;
+            }
+            
+            #ga{
+	    color:#686a6d;
+		font-size:14px;
+        font-weight: 400;
+        opacity: .7;
+        margin-bottom: 2em; 
+	}
